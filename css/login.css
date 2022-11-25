@@ -1,0 +1,318 @@
+
+body{
+    background-image: url(../img/fundo);
+    
+   
+}
+.panel-body.login h1 {
+    font-family: 'Scania Sans Headline Bold', Helvetica, Arial, sans-serif;
+    line-height: 0.98;
+    color: #e4e715;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin: 30px 10% 8px;
+   
+    
+}
+
+
+
+
+article p, .app article p {
+    text-align: inherit;
+    font-size: 18px;
+}
+
+.app label, .app caption {
+    font-family: 'Scania Sans Semi Condensed';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #e4e715;
+}
+
+.col-sm-12{
+    font-family: 'Scania Sans Bold';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #041e42;
+    min-width: 34px;
+    width: 50%;
+    text-align: center;
+    padding: 20px 40px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    white-space: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    outline: none;
+}
+
+.app .btn-primary {
+    background-color: #e4e715;
+    border-color: #e4e715;
+}
+.app .btn {
+    font-family:"Scania Sans Bold"; 
+    padding: 10px 18px;
+    text-transform: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.app .btn-primary:hover, .app .btn-primary:active, .app .btn-primary.active, .open .dropdown-toggle.app .btn-primary {
+    background-color:white(0, 0, 0);
+    border-color: #6a0b9f;
+    color: #6a0b9f;
+    padding-left: 0%;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+  
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+.app .btn {
+    font-family: "Scania Sans Bold";
+    padding: 10px 18px;
+    text-transform: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+div {
+    display: block;
+}
+
+
+.deivid{
+    margin: auto;
+
+}
+
+.col-md-8 {
+    width: 49.66666667%;
+}
+
+.col-md-offset-2 {
+    margin-left: 23.66666667%;
+}
+
+
+c-main-content{
+    text-align: center;
+    display: none;
+    flex-grow: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #6a0b9f;
+}
+
+.app p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.panel-default {
+     border-color: none; 
+     border: none;
+     background-color: #6a0b9f;
+    }
+
+    .foto{
+        position: absolute;
+        top: -150px;
+        left: -50px;
+        width: 1953px;
+        height: 1000px;
+        
+            }
+
+            .panel .panel-body, .panel .portlet-application {
+                padding: 20px 40px;
+                position: relative;
+                top: -25px;
+            }
+
+
+            :root {
+                --red: hsl(0, 78%, 62%);
+                --cyan: hsl(180, 62%, 55%);
+                --orange: hsl(34, 97%, 64%);
+                --blue: hsl(212, 86%, 64%);
+                --varyDarkBlue: hsl(234, 12%, 34%);
+                --grayishBlue: #e4e715;
+                --veryLightGray: hsl(0, 0%, 98%);
+                --corScania:#6a0b9f ;
+                --weight1: 200;
+                --weight2: 400;
+                --weight3: 600;
+            }
+            
+            
+            
+            
+            @media (max-width: 400px) {
+                h1 {
+                    font-size: 1.5rem;
+                }
+            }
+            
+            
+            
+            
+            
+            
+            .box p {
+                color: var(--grayishBlue);
+            }
+            
+            .box {
+                border-radius: 5px;
+                box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+                padding: 30px;
+                margin: 20px;  
+                cursor: pointer;
+                background-color: #6a0b9f;
+                
+                
+            
+            }
+            
+            .box:hover{
+                width: 17,5%;
+                -webkit-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                    transform: scale(1.1);
+                    transition: 0.1s;
+                
+            }
+            
+            img {
+                float: right;
+            }
+            
+            @media (max-width: 450px) {
+                .box {
+                    height: 200px;
+                }
+            }
+            
+            @media (max-width: 950px) and (min-width: 450px) {
+                .box {
+                    text-align: center;
+                    height: 180px;
+                }
+            }
+            
+            .cScania {
+                border-top: 3px solid var(--corScania);
+            }
+            h2 {
+                color: var(--cScania);
+                font-weight: var(--weight3);
+                font-family: 'Scania Sans Semi Condensed';
+                
+            }
+            
+            
+            
+            @media (min-width: 950px) {
+                .row-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    
+                }
+                .box-down {
+                    position: relative;
+                    top: 50px;
+                }
+                .box {
+                    width: 20%;
+                
+            }
+            }
+
+
+.font{
+    font-size: 20px;
+}
+.space{
+    padding-top: 200px;
+}
+
+.teste{
+  padding-top: 50px;
+}
+
+.app article h1 {
+    font-family: "Scania Sans Headline";
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 52px;
+}
+           
+
+.app article h2{
+    font-family: 'Scania Sans Headline';
+    color: #e4e715;
+}
+.app h3{
+    font-family: "Scania Sans Headline";
+    letter-spacing: normal;
+    font-weight: bold;
+    text-align: center;
+}
+.foto2{
+    text-align: center;
+    float: none;
+    
+    
+}
+
+.field-icon {
+    float: right;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    margin-top: -2.05em;
+    margin-bottom: -2.15em;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+.foto1{
+    background-image: url(../img/testeFundoDois.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 860px;
+    
+}
+
+.space {
+    padding-top: 0px !important;
+}

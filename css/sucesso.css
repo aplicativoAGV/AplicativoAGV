@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+@font-face {
+  font-family: ScaniaOffice-Regular;
+  src: url(../fonts/ScaniaOffice-Regular.ttf);
+}
+
+@font-face {
+  font-family: ScaniaSansHeadline-Regular;
+  src: url(../fonts/ScaniaOfficeHeadline-Regular.ttf);
+}
+
+@font-face {
+  font-family: ScaniaSansHeadline-Bold;
+  src: url(../fonts/ScaniaOfficeHeadline-Bold.ttf);
+}
+
+
+  .sucesso h1{
+    margin-top: 60px;
+    color: white;
+    font-size: 18px;
+    font-family: ScaniaSansHeadline-Bold;
+    align-items: center;
+  }

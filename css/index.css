@@ -1,0 +1,172 @@
+@font-face {
+  font-family: ScaniaOffice-Regular;
+  src: url(../fonts/ScaniaOffice-Regular.ttf);
+}
+
+@font-face {
+  font-family: ScaniaSansHeadline-Regular;
+  src: url(../fonts/ScaniaOfficeHeadline-Regular.ttf);
+}
+
+@font-face {
+  font-family: ScaniaSansHeadline-Bold;
+  src: url(../fonts/ScaniaOfficeHeadline-Bold.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .intro {
+    height: 100vh;
+  }
+  
+  .intro video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+#blur{
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: absolute;
+  top: 240px;
+  left: 30px;
+  width: 330px;
+  height: 310px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+ 
+  opacity: 0; 
+  
+  place-content: center;
+  padding: 0px 10px 0px 0px;
+  transition: 2s;
+}
+
+.popup-content {
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    position: absolute;
+    transition: 2s;
+}
+
+#logo-popup {
+  position: absolute;
+  top:25px;
+  left: 16% ;
+  width: 70%;
+  transition: 2s;
+}
+
+
+#blur button{
+  position: absolute;
+  top: 200px;
+  background: white;
+  
+  margin-left: 92px;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  border: solid 2px rgb(0, 6, 94);
+  font-family: ScaniaSansHeadline-Regular;
+  color: rgb(0, 6, 94);
+  font-size: 15px;
+  font-weight: bold ; 
+  transition: 2s;
+  z-index: 100;
+}
+
+
+.login {
+  height: 150px;
+  text-align: center;
+  display: flex;
+  color: white;
+}
+
+#login {
+  position: absolute;
+  top: 40%;
+  left: 13%;
+  opacity: 0;
+  transition: 2s;
+}
+
+
+.fields {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  border: 3px solid rgb(0, 31, 172);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, 0.726);
+  color: white;
+  outline: none;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  font-family: ScaniaOffice-Regular;
+}
+
+#join-btn {
+  border: 1px solid rgba(10, 180, 180, 1);
+  background: rgba(20, 20, 20, .6);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+  
+}
+
+.link-cad{
+  text-align: center;
+  font-family: ScaniaOffice-Regular;
+}
+
+.link-cad a{
+  font-family: ScaniaOffice-Regular;
+}
+
+/*Input*/
+
+ .loginIN input[type="submit"]{
+  background: white;
+  position: absolute;
+  top: 110%;
+  left: 49px;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  border: solid 2px rgb(0, 6, 94);
+  font-family: ScaniaSansHeadline-Regular;
+  color: rgb(0, 6, 94);
+  font-size: 15px;
+  font-weight: bold ; 
+
+  z-index: 6000;
+}
+
+#div-log{
+ opacity: 0;
+}
+
+

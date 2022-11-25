@@ -1,0 +1,421 @@
+/*Fonte */
+
+@font-face {
+    font-family:ScaniaOffice-Regular ;
+    src: url(../css/fonts/ScaniaOffice-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family:ScaniaOfficeHeadline-Bold;
+    src:url(../css/fonts/ScaniaOfficeHeadline-Bold.ttf);
+  }
+  
+  
+  @font-face {
+    font-family: ScaniaOffice-Bold;
+    src: url(../css/fonts/ScaniaOffice-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: ScaniaOffice-Bold;
+    src: url(../css/fonts/ScaniaSans-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: ScaniaSansV1-Bold;
+    src: url(../css/fonts/ScaniaSansV1-Bold.otf);
+  }
+  
+      .body{
+              background-image: url(../img/fundo-de-tecnologia-abstrato-gradiente-azul_23-2149213765.webp);
+      }
+  
+                @-webkit-keyframes alpha {
+                  0%{
+                      opacity: 0;
+                  }
+                  100%{
+                      opacity: 1;
+                  }
+              }
+                .inp-none{
+                    display: none;
+                }
+                .box-estrela{
+                    width: 10px;;
+                    height: 40px;
+                    float: left;
+                    margin-right: 45px;
+                    position: relative;
+                  cursor:all-scroll;
+                    margin-top: 6%;
+                    margin-left: 4%;
+                    left: 100px;
+                }
+                .estrela-diagrama,
+                .estrela-diagrama:before,
+                .estrela-diagrama:after{
+                    width: 0px;
+                    height: 0px;
+                    position: absolute;
+                    border-right: 38px solid transparent;
+                    border-left: 38px solid transparent;
+                    border-bottom: 22px solid #c0c8c9;
+                }              
+                .estrela-diagrama{
+                    z-index: 5;
+                    transform: rotate(-180deg);
+                    left: -105px;
+                    top: 294px;
+                }
+                .estrela-diagrama:before{
+                    content: "";
+                    z-index: 6;
+                    transform: rotate(-72deg);
+                    left: -36px;
+                    top: 1px;
+                }
+                .estrela-diagrama:after{
+                    content: "";
+                    z-index: 6;
+                    transform: rotate(71deg);
+                    left: -40px;
+                    top: 1px;
+                }
+                #estrela-1:checked ~ label[for="estrela-1"] .estrela-diagrama,
+                #estrela-1:checked ~ label[for="estrela-1"] .estrela-diagrama:before,
+                #estrela-1:checked ~ label[for="estrela-1"] .estrela-diagrama:after{
+                    -webkit-animation: alpha .2s ease;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    border-right: 38px solid transparent;
+                    border-left: 38px solid transparent;
+                    border-bottom: 22px solid 	#DAA520;
+                }
+                #estrela-2:checked ~ label[for="estrela-1"] .estrela-diagrama,
+                #estrela-2:checked ~ label[for="estrela-1"] .estrela-diagrama:before,
+                #estrela-2:checked ~ label[for="estrela-1"] .estrela-diagrama:after,
+                #estrela-2:checked ~ label[for="estrela-2"] .estrela-diagrama,
+                #estrela-2:checked ~ label[for="estrela-2"] .estrela-diagrama:before,
+                #estrela-2:checked ~ label[for="estrela-2"] .estrela-diagrama:after{
+                    -webkit-animation: alpha .2s ease;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    border-right: 38px solid transparent;
+                    border-left: 38px solid transparent;
+                    border-bottom: 22px solid 	#DAA520;
+                }
+                #estrela-3:checked ~ label[for="estrela-1"] .estrela-diagrama,
+                #estrela-3:checked ~ label[for="estrela-1"] .estrela-diagrama:before,
+                #estrela-3:checked ~ label[for="estrela-1"] .estrela-diagrama:after,
+                #estrela-3:checked ~ label[for="estrela-2"] .estrela-diagrama,
+                #estrela-3:checked ~ label[for="estrela-2"] .estrela-diagrama:before,
+                #estrela-3:checked ~ label[for="estrela-2"] .estrela-diagrama:after,
+                #estrela-3:checked ~ label[for="estrela-3"] .estrela-diagrama,
+                #estrela-3:checked ~ label[for="estrela-3"] .estrela-diagrama:before,
+                #estrela-3:checked ~ label[for="estrela-3"] .estrela-diagrama:after{
+                    -webkit-animation: alpha .2s ease;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    border-right: 38px solid transparent;
+                    border-left: 38px solid transparent;
+                    border-bottom: 22px solid 	#DAA520;
+                }
+                #estrela-4:checked ~ label[for="estrela-1"] .estrela-diagrama,
+                #estrela-4:checked ~ label[for="estrela-1"] .estrela-diagrama:before,
+                #estrela-4:checked ~ label[for="estrela-1"] .estrela-diagrama:after,
+                #estrela-4:checked ~ label[for="estrela-2"] .estrela-diagrama,
+                #estrela-4:checked ~ label[for="estrela-2"] .estrela-diagrama:before,
+                #estrela-4:checked ~ label[for="estrela-2"] .estrela-diagrama:after,
+                #estrela-4:checked ~ label[for="estrela-3"] .estrela-diagrama,
+                #estrela-4:checked ~ label[for="estrela-3"] .estrela-diagrama:before,
+                #estrela-4:checked ~ label[for="estrela-3"] .estrela-diagrama:after,
+                #estrela-4:checked ~ label[for="estrela-4"] .estrela-diagrama,
+                #estrela-4:checked ~ label[for="estrela-4"] .estrela-diagrama:before,
+                #estrela-4:checked ~ label[for="estrela-4"] .estrela-diagrama:after{
+                    -webkit-animation: alpha .2s ease;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    border-right: 38px solid transparent;
+                    border-left: 38px solid transparent;
+                    border-bottom: 22px solid 	#DAA520;
+                }
+                #estrela-5:checked ~ label[for="estrela-1"] .estrela-diagrama,
+                #estrela-5:checked ~ label[for="estrela-1"] .estrela-diagrama:before,
+                #estrela-5:checked ~ label[for="estrela-1"] .estrela-diagrama:after,
+                #estrela-5:checked ~ label[for="estrela-2"] .estrela-diagrama,
+                #estrela-5:checked ~ label[for="estrela-2"] .estrela-diagrama:before,
+                #estrela-5:checked ~ label[for="estrela-2"] .estrela-diagrama:after,
+                #estrela-5:checked ~ label[for="estrela-3"] .estrela-diagrama,
+                #estrela-5:checked ~ label[for="estrela-3"] .estrela-diagrama:before,
+                #estrela-5:checked ~ label[for="estrela-3"] .estrela-diagrama:after,
+                #estrela-5:checked ~ label[for="estrela-4"] .estrela-diagrama,
+                #estrela-5:checked ~ label[for="estrela-4"] .estrela-diagrama:before,
+                #estrela-5:checked ~ label[for="estrela-4"] .estrela-diagrama:after,
+                #estrela-5:checked ~ label[for="estrela-5"] .estrela-diagrama,
+                #estrela-5:checked ~ label[for="estrela-5"] .estrela-diagrama:before,
+                #estrela-5:checked ~ label[for="estrela-5"] .estrela-diagrama:after{
+                    -webkit-animation: alpha .2s ease;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    border-right: 38px solid transparent;
+                    border-left: 38px solid transparent;
+                    border-bottom: 22px solid 	#DAA520;
+                }
+            
+  
+              .espaco{
+                  text-align: center;
+                  width: 200px;
+                  margin-left: 20%;
+                  margin-top: -30%;
+              }
+  
+
+              .avaliacao h1{
+                color: white;
+                text-align: center;
+                font-size: 22px;
+                align-items: center;
+                margin-top: 44%;
+                top: 46px;
+                margin-left: 3%;
+                position: absolute;
+                font-family: ScaniaSansHeadline-Bold;
+              }
+
+  
+  
+    
+              .feedback h1{
+                color: white;
+                font-size: 23px;
+                margin-top: 180px;
+                margin-left: -282px;
+                font-family: ScaniaSansHeadline-Bold;
+              }
+  
+          /*PARTE DO FEEDBACK*/
+
+  
+          
+          .login-box {
+            margin-top: 320px;
+            width: 350px;
+            left: -110px;
+            top: 167px;
+            padding: 20px;
+            transform: translate(-78%, -55%);
+            background: rgba(0,0,0,.5);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0,0,0,.6);
+            border-radius: 10px;
+            position: absolute;
+          }
+          
+          .login-box h2 {
+            margin: 0 0 30px;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+          }
+          
+          .login-box .user-box {
+            position: relative;
+          }
+          
+          .login-box .user-box input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+          }
+          .login-box .user-box label {
+            position: absolute;
+            top:0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            pointer-events: none;
+            transition: .5s;
+          }
+          
+          .login-box .user-box input:focus ~ label,
+          .login-box .user-box input:valid ~ label {
+            top: -20px;
+            left: 0;
+            color: 	#e6e7e7;
+            font-size: 12px;
+          }
+          
+          .login-box form a {
+            position: relative;
+            display: inline-block;
+            padding: 10px 30px;
+            color:	#16417F;
+            font-size: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 40px;
+            letter-spacing: 4px
+          }
+          
+          .login-box a:hover {
+            background: 	#16417F;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px 	#16417F,
+                        0 0 25px 	#16417F,
+                        0 0 50px 	#16417F,
+                        0 0 100px 	#16417F;
+          }
+          
+          .login-box a span {
+            position: absolute;
+            display: block;
+          }
+          
+          .login-box a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, 	#16417F);
+            animation: btn-anim1 1s linear infinite;
+          }
+          
+          @keyframes btn-anim1 {
+            0% {
+              left: -100%;
+            }
+            50%,100% {
+              left: 100%;
+            }
+          }
+          
+          .login-box a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, 	#16417F);
+            animation: btn-anim2 1s linear infinite;
+            animation-delay: .25s
+          }
+          
+          @keyframes btn-anim2 {
+            0% {
+              top: -100%;
+            }
+            50%,100% {
+              top: 100%;
+            }
+          }
+          
+          .login-box a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, 	#16417F);
+            animation: btn-anim3 1s linear infinite;
+            animation-delay: .5s
+          }
+          
+          @keyframes btn-anim3 {
+            0% {
+              right: -100%;
+            }
+            50%,100% {
+              right: 100%;
+            }
+          }
+          
+          .login-box a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, 	#16417F);
+            animation: btn-anim4 1s linear infinite;
+            animation-delay: .75s
+          }
+          
+          @keyframes btn-anim4 {
+            0% {
+              bottom: -100%;
+            }
+            50%,100% {
+              bottom: 100%;
+            }
+          }
+          
+          .login-box h2{
+            color: white;
+            font-size: 23px;
+            font-family: ScaniaSansHeadline-Bold;
+          }
+
+          .login-box p{
+            color: white;
+            font-size: 14px;
+            font-family: ScaniaSansHeadline-Bold;
+          }
+  
+    
+          .user-box label{
+            font-family: ScaniaOffice-Regular;
+            color: white;
+            font-size: 10px;
+          }
+    
+      
+      #btn1{
+       position: absolute;
+       top: 1500%;
+       left: -3600%;
+        background: white;
+        width: 150px;
+        height: 60px;
+        border-radius: 5px;
+        border: none;
+        border: solid 2px rgb(0, 6, 94);
+        font-family: ScaniaSansHeadline-Regular;
+        color: rgb(0, 6, 94);
+        font-size: 12px;
+        font-weight: bold ; 
+        transition: 2s;
+        z-index: 100;
+        
+      }
+
+      #btn2{
+        position: absolute;
+        top: 1500%;
+        left: -2000%;
+        background: white;
+        width: 150px;
+        height: 60px;
+        border-radius: 5px;
+        border: none;
+        border: solid 2px rgb(0, 6, 94);
+        font-family: ScaniaSansHeadline-Regular;
+        color: rgb(0, 6, 94);
+        font-size: 12px;
+        font-weight: bold ; 
+        transition: 2s;
+        z-index: 100;
+      }

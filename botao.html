@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/scania-logoGrifo.png">
+    <title>SCANIA | Home</title>
+
+    <link href="css/botao.css" rel="stylesheet">
+    <link href="js/botao.js" rel="stylesheet">
+    <link href="js/testemenu.js" rel="stylesheet">
+    <link href="css/testemenu.css" rel="stylesheet">
+    <link href="css/chatOficial.css" rel="stylesheet">
+
+   
+</head>
+
+<body background="img/fundo-de-tecnologia-abstrato-gradiente-azul_23-2149213765.webp">
+
+    <h1>ESCOLHA OPÇÃO:</h1>
+    <div class="card">
+    <a href="mapa.html">
+        <img src="img/rota-removebg-preview.png" style="width: 40%; height:60%; margin-left: 30%; margin-top: 15%; margin-block-end: 30%; border-color: azure; ">
+      </a>
+        <p style="">VER ROTA</p>   
+      
+    </div>
+
+    
+    <div class="card2" style="margin-top: 105%;">
+      <a href="controle.html">
+        <img src="img/controle-removebg-preview (2).png" style="width: 60%; height:80%; margin-left: 20%; margin-top: 15%; margin-block-end: 30%; border-radius: 60%;">
+      </a>
+        <p>CONTROLAR AGV</p>
+      
+    </div>
+
+
+
+
+ 
+<!--CHAT -->
+
+<div class="chat" id="chat">
+  <div class="chat-header">
+    <div class="logo">
+      <img src="img/scania-logoGrifo.png" alt="SCANIA Group" />
+    </div>
+    <div class="title">SCANIA Group</div>
+  </div>
+  <div class="chat-body"></div>
+  <div class="chat-input">
+    <div class="input-sec">
+      <input type="text" id="txtInput" placeholder="Digite aqui!" autofocus />
+    </div>
+    <div class="send">
+      <img src="img/send.svg" alt="send" />
+    </div>
+  </div>
+</div>
+
+
+<!-- FIM DO CHAT -->
+
+
+<!-- LOGOUT -->
+
+ <div id="logout-popup" class="logout-popup">
+  <div class="logout-content">
+    
+    <img src="img/scania-logo.png" alt="Logo Scania" title="Logo Scania">
+
+    <h2>Deseja mesmo sair?</h2>
+    <a href="pagAvaliacao.html"><button id="sair-sim" class="sair-sim">Sim</button></a>
+    <button onclick="sair()" id="sair-nao" class="sair-nao">Não</button>
+    
+  </div>
+</div>        
+
+
+
+
+<!-- FIM DO LOGOUT  -->
+
+
+  <!--MENU-->
+  <div class="container">
+    <div class="mobile">
+      <div class="first-row">
+  
+        <div id="circ-seleciona1" class="circ-seleciona" style="position: fixed;left:19px;"></div>
+        
+        <a href="botao.html">
+        <button onclick="circSelecionado()" style="background-color:white; border: none; cursor:pointer; outline: none;">
+        <div class="home">
+        <span class="icon-container">
+          <i class="first fas fa-book-open" size="2x"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" fill="currentColor" class="icHome bi bi-house" color="#041E42" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg>
+        </span>
+      </div>
+    </button>
+  </a>
+
+
+
+<a href="StatusAgv.html">
+    <button onclick="circSelecionado2()" style="background-color:white; border: none; cursor:pointer; outline: none;">
+        <div class="status">
+        <span class="icon-container">
+          <i class="second fas fa-edit"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" fill="currentColor" class="icStatus bi bi-journal-text" color="#041E42" viewBox="0 0 16 16">
+            <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+            <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+            <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+          </svg>
+        </span>
+      </div>
+    </button>
+  </a>
+        <!--LOGO SCANIA-->
+        <img class="logo-menu" src="img/scania-logoGrifo.png" style="height: 58px; width:65px; margin-top: 2%;">
+
+        <div id="circ-seleciona3" class="circ-seleciona" style="position: fixed;left:248px;"></div>
+        
+        <button onclick="circSelecionado3();showCloseChat()" style="background-color:white; border: none; cursor:pointer; outline: none;">
+        <div class="chaticone">
+        <span class="icon-container">
+          <i class="fourth fas fa-heartbeat"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" fill="currentColor" class="icChat bi bi-chat-right-dots" viewBox="0 0 16 16" color="#041E42">
+            <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+          </svg>
+        </span>
+      </div>
+        </button>
+
+
+    <div id="circ-seleciona4" class="circ-seleciona" style="position: fixed;left:315px;"></div>
+
+      <button onclick="circSelecionado4();sair()" style="background-color:white; border: none; cursor:pointer; outline: none;">
+      <div class="sair">
+        <span class="icon-container">
+          <i class=" third fas fa-music"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" fill="currentColor" class="icOut bi bi-box-arrow-right"  color="#041E42"  viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+          </svg>
+        </span>
+
+      </div>
+      </button> 
+
+      <script src="js/chatOficial.js" defer></script>
+      <script src="js/respotaChatOficial.js" defer></script>
+    <script src="js/testemenu.js" defer></script>
+
+
+
+</div>
+</body>
+</html>

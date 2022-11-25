@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/scania-logoGrifo.png">
+
+    <link href="css/paginaAvaliacao.css" rel="stylesheet">
+    <link href="css/testemenu.css" rel="stylesheet">
+    <script src="js/pagAvaliacao.js"></script>
+    <title>SCANIA | Avaliação</title>
+</head>
+<body background="img/fundo-de-tecnologia-abstrato-gradiente-azul_23-2149213765.webp">
+
+
+  <img src="img/logo pequeno da Scania.webp" style="height: 100px; top: 73px; left: 22%; position: absolute;">
+  
+
+
+  <div class="avaliacao">
+    <h1>DEIXE SUA AVALIAÇÃO AQUI:</h1>
+  </div>
+    
+
+    <input type="radio" name="estrela" id="estrela-1" class=" inp-none input-estrela">
+     <input type="radio" name="estrela" id="estrela-2" class="inp-none input-estrela">
+     <input type="radio" name="estrela" id="estrela-3" class="inp-none input-estrela" checked>
+     <input type="radio" name="estrela" id="estrela-4" class="inp-none input-estrela">
+     <input type="radio" name="estrela" id="estrela-5" class="inp-none input-estrela">
+         <label for="estrela-1" class="box-estrela">
+             <div class="estrela-diagrama"></div>
+         </label>
+         <label for="estrela-2" class="box-estrela">
+             <div class="estrela-diagrama"></div>
+         </label>
+         <label for="estrela-3" class="box-estrela">
+             <div class="estrela-diagrama"></div>
+         </label>
+         <label for="estrela-4" class="box-estrela">
+             <div class="estrela-diagrama"></div>
+         </label>
+         <label for="estrela-5" class="box-estrela">
+             <div class="estrela-diagrama"></div>
+  
+
+
+  
+    <!--TERMINA SEU CONTEÚDO AQUI-->
+
+
+
+
+  <!--INÍCIO DA PARTE DO FEEDBACK-->
+
+  <div class="login-box">
+    <h2>DEIXE SEU FEEDBACK :</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" name="" required="">
+        <label>Seu Feedback</label>
+      </div>
+    
+    
+       
+     
+       <script>
+        function funcao1()
+        {
+        var x;
+        var r=confirm("SEU FEEDBACK FOI ENVIADO COM SUCESSO!");
+        if (r==true)
+          {
+          x="você pressionou OK!";
+          }
+        else
+          {
+          x="Você pressionou Cancelar!";
+          }
+        document.getElementById("demo").innerHTML=x;
+        }
+        </script>
+
+    </form>
+</div>
+
+    <div class="botoes">
+      <a href="index.html">
+        <button id="btn1"  onclick="funcao1()" ><p>ENVIAR FEEDBACK</p></button>
+      </a>
+      <a href="index.html">
+        <button id="btn2" ><p>LEMBRAR-ME DEPOIS</p></button>
+      </a>
+    </div>
+  </div>
+
+
+  <!--FIM DA PARTE DO FEEDBACK-->
+
+</body>
+</html>
